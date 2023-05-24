@@ -1,7 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    margin: 30px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
 .main-header {
     width: 100%;
     background: #d2cf64;
     padding: 8px 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 2;
 }
 
 .main-header > div {

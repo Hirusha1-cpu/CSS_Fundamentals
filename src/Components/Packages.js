@@ -4,6 +4,7 @@ import React from 'react'
 function package1() {
   return (
     <div className="App">
+       <div className='background_image'></div>
       <header class="main-header">
         <div>
           <a href="/" class="main-header__brand">
@@ -54,6 +55,7 @@ function package1() {
               <h1 className='package_title'>
                 Our Plus Plan
               </h1>
+              <h2 className='package_badge'>RECOMMENDED</h2>
               <h2 className='package_subtitle'>
                 The most popular choice
               </h2>

@@ -3,6 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div className="App">
+     
       <header class="main-header">
         <div>
           <a href="/" class="main-header__brand">
